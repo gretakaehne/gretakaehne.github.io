@@ -1,0 +1,64 @@
+body {
+  	font-size: 18px;
+    margin: 0 auto;
+    background-image: url("images/yeomontsun.jpg");
+    width: 60em;
+
+} 
+
+#heading{ 
+      text-align: center;
+      font-variant: small-caps;
+      font-family: Tahoma, cursive;
+      letter-spacing: 0.25em;
+
+
+     }
+
+#all{
+      margin: 8em;
+      padding: 1em 2em 2em 2em;
+      background: #ffffff;
+      font-family: Tahoma, cursive;
+      text-align: center;
+
+  }
+
+ nav a{
+  color: #fff
+  font-style: italic;
+  text-align: left;
+  margin-left: 10px
+ }
+
+h1,h2{
+    text-transform: uppercase;
+    border-bottom: 4px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+
+}
+
+h2 {
+    font-size: 1em;
+    padding: .8em 0;
+    
+}
+
+
+
+ul{
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+
+footer{ 
+  text-align: center;
+  padding: 1em 0; 
+}
