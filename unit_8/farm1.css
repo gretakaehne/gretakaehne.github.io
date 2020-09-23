@@ -3,15 +3,10 @@
 @import url(https://fonts.googleapis.com/css?family=Allerta);
 
 
-body{
-    background-color: #fff;
-    font-size: 16px;
-    position: relative;
-}
-
 header{
-    padding:0 700px;
-     background-image: url("assets/meatboxtable.jpg");
+    padding: 12em;
+    background: url("assets/meatboxtable.png") no-repeat center fixed;
+    background-size: cover;
 }
 
 nav{
@@ -22,19 +17,53 @@ nav{
 nav a:link{
 	text-decoration: none;
     font-family: 'Allerta', sans-serif;
-    color:#000;
-    margin:0 32px;
-    padding-bottom:5px;
+    color: #000;
+    margin:0 10px;
+    padding: 0.5em;
     font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
+nav a:visited{
+    color: #000;
+}
+
+nav a:hover{
+    border-bottom: 1px solid #000;
+}
+
+
+
 h1, h2{
     font-family: 'Allerta', serif;
     font-weight: normal;
-    font-size:60px;
-    text-align:left;
-    color:#000;
-    margin:200px 0 0;
+    font-size: 60px;
+    text-align: left;
+    color: #fff; 
+    margin: 0.5em 0 0 0;
 }
+
+h2 a:link{
+	  text-decoration: none;
+	  text-align: center;
+	  font-size: 16px;
+	  color:#000;
+}
+
+h2 a:visited{
+    color: #fff;
+}
+
+h2 a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
+.button{
+  background-color: #A0A0A0; 
+  opacity: 0.9;
+  padding: 0 0.5em 0;
+  display: inline-block;
+}
+
