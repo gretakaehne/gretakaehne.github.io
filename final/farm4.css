@@ -1,0 +1,239 @@
+@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+
+
+header{
+
+    padding: 5em;
+    background: url("assets/meatbox2.jpg") no-repeat center scroll;
+    background-size: 100%;
+   
+   }
+
+
+nav{
+    
+ 	text-align: right;
+ 	float: right;
+    margin:10 10px;
+}
+
+nav a:link{
+	text-decoration: none;
+    font-family: 'Allerta', sans-serif;
+    color: #000;
+    margin:0 10px;
+    padding: 0.1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav a:visited{
+    color: #000;
+}
+
+nav a:hover{
+    border-bottom: 1px solid #000;
+}
+
+ h1 {
+    font-family: 'Allerta', serif;
+    font-weight: normal;
+    font-size: 60px;
+    text-align: left;
+    color: #fff; 
+}
+
+h2 a:link{
+	  text-decoration: none;
+	  text-align: center;
+	  font-size: 16px;
+	  color:#000;
+	  padding: 10px 10px;
+}
+
+h2 a:visited{
+    color: #000;
+}
+
+h2 a:hover{
+    border-bottom: 5px solid #fff;
+}
+
+
+
+.button1{
+  background-color: #F1E9E4; 
+  opacity: 0.8;
+  padding: 0 0.5em 0;
+  display: inline-block;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #F1E9E4;
+  font-family: 'Allerta', sans-serif;
+}
+
+h3{
+	font-family: 'Allerta', serif;
+    font-weight: normal;
+	font-size: 1.5em;
+    text-align: left;
+    color: #000; 
+    margin: 0.5em 4em;
+}
+
+.meal a:link{
+	text-decoration: none;
+    font-family: 'Allerta', sans-serif;
+    color: #000;
+    padding: 0.2em;
+    font-size: 1em;
+    border-bottom: 2px solid #fff;
+   
+}
+
+.meal a:visited{
+    color: #000;
+}
+
+footer{
+	text-align: center;
+	padding: 0.1em 0;
+	border-top: 12px;
+	background: #E8ECEF;
+    clear: both;
+}
+
+.shopping-cart{
+  width: 1500px;
+  height: 300px;
+  margin: 10px auto;
+  background: #FFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  display: flex;
+  flex-direction: row;
+
+}
+
+.title {
+    height: 60px;
+    width: 50px;
+    padding: 10px 10px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: #000;
+    background: #FFF;
+  
+ }
+
+
+.item {
+  padding: 20px 50px;
+  height: 300px;
+  display: flex;
+
+  border-right: 1px solid #E1E8EE;
+}
+
+
+.buttons {
+  position: flex;
+  padding-top: 30px;
+  margin-right: 10px;
+}
+
+
+.delete-btn,
+.like-btn {
+  display: flex;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.image img{
+  padding-top: 10px;
+  margin: 20px 20px;
+  width: 100%;
+  height: auto;
+
+}
+
+
+ .description {
+  padding-top: 10px;
+  margin: 30px;
+  width: 110px;
+}
+
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+
+.quantity {
+  padding-top: 20px;
+   margin: 20px;
+}
+
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  margin: 10px 0;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin-bottom: 2px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+
+.total-price {
+  width: 80px;
+  padding-top: 55px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+.meal {
+  float: left;
+  width: 33.33%;
+  padding-bottom: 20px;
+}
+.row{
+	  margin: 0 12.5em;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+}
